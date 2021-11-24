@@ -6,7 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapCharCountResultCache implements CharCountResultCache {
+
     Map<String, CharCountResult> cache = new HashMap<>();
+
     @Override
     public boolean containsKey(String input) {
         return cache.containsKey(input);

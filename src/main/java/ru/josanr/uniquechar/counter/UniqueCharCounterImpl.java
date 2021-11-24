@@ -9,11 +9,11 @@ public class UniqueCharCounterImpl implements UniqueCharCounter {
         var result = new CharCountResult();
         var splitString = input.split("");
         for (String singleChar : splitString) {
-            if(result.containsKey(singleChar)) {
+            if (result.containsKey(singleChar)) {
                 var count = result.get(singleChar);
                 count += 1;
                 result.put(singleChar, count);
-            }else{
+            } else {
                 result.put(singleChar, 1);
             }
         }

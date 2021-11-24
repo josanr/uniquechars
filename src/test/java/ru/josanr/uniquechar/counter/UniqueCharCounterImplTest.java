@@ -3,7 +3,6 @@ package ru.josanr.uniquechar.counter;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import ru.josanr.uniquechar.counter.UniqueCharCounterImpl;
 import ru.josanr.uniquechar.result.CharCountResult;
 
 import java.util.stream.Stream;

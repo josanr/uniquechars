@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         UniqueCharCounter counter = new CachingCounterDecorator(
             new UniqueCharCounterImpl(),
@@ -18,7 +19,7 @@ public class Main {
         while (true) {
             System.out.print("Input string for counting (type exit to quit):");
             String inputString = scanner.nextLine();
-            if(inputString.equalsIgnoreCase("exit")) {
+            if (inputString.equalsIgnoreCase("exit")) {
                 break;
             }
 

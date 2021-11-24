@@ -15,7 +15,7 @@ public class CachingCounterDecorator implements UniqueCharCounter {
 
     @Override
     public CharCountResult count(String input) {
-        if(cache.containsKey(input)) {
+        if (cache.containsKey(input)) {
             return cache.get(input);
         }
 
