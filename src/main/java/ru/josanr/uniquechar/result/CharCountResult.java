@@ -2,7 +2,7 @@ package ru.josanr.uniquechar.result;
 
 import java.util.HashMap;
 
-public class CharCountResult extends HashMap<String, Integer> {
+public class CharCountResult extends HashMap<Character, Integer> {
 
     @Override
     public String toString() {

@@ -3,9 +3,7 @@ package ru.josanr.uniquechar.counter;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import ru.josanr.uniquechar.cache.CharCountResultCache;
-import ru.josanr.uniquechar.result.CharCountResult;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 class CachingCounterDecoratorTest {
