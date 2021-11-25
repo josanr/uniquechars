@@ -41,9 +41,6 @@ class UniqueCharCounterPerformanceIT {
         Instant finishCache = Instant.now();
         long timeElapsedCache = Duration.between(startCache, finishCache).toMillis();
 
-        System.out.println(timeElapsedNoCache);
-        System.out.println(timeElapsedCache);
-        
         Assertions.assertTrue(timeElapsedNoCache > timeElapsedCache);
     }
 }
